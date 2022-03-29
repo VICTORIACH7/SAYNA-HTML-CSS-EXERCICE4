@@ -16,6 +16,16 @@
     src: url(../Assets/Fonts/Far-From\ Homecoming\ Updated.otf);
 }
 
+@font-face {
+    font-family: 'font';
+    src: url(../Assets/Fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'fonti';
+    src: url(../Assets/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #FFFFFF;
@@ -276,6 +286,36 @@ h2 {
 #Vilains>p {
     padding-bottom: 25vh;
     padding-left: 10vh;
+}
+
+#containeryellow {
+    background-color: #F1C530;
+    margin-top: -16vh;
+}
+
+.col {
+    padding: 5vh;
+    margin-left: 12vh;
+}
+
+.card-img-top {
+    width: 80;
+}
+
+.card-body {
+    border-radius: 0 0 50px 50px;
+    border-color: #000000;
+    color: #000000;
+    padding-left: 2vh;
+    box-shadow: #000000;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    background-color: #F1C530;
+}
+
+.card-text {
+    color: #000000;
+    text-align: left;
 }
 
 
@@ -602,12 +642,27 @@ h2 {
     margin-bottom: 4vh;
 }
 
-#spiders {
-    background-color: rgb(187, 18, 18);
+#SPIDERMAN>h1 {
+    padding-top: 50vh;
+    margin-left: 10vh;
 }
 
 h4 {
+    padding-bottom: 30vh;
+}
+
+#spiders {
+    background-color: rgb(187, 18, 18);
+    margin-top: -7vh;
+}
+
+#spiders>h2 {
+    margin-left: 10vh;
+}
+
+#spiders>p {
     padding-bottom: 10vh;
+    margin-left: 10vh;
 }
 
 #Footerhome {
