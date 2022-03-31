@@ -606,6 +606,24 @@
             margin-bottom: 4vh;
         }
         
+        .buttonredred1 {
+            color: #FFFFFF;
+        }
+        
+        #exampleFormControlInput11 {
+            background-color: #b1131303;
+            border-color: #FFFFFF;
+            border-radius: 15px;
+            padding: 1vh;
+        }
+        
+        #exampleFormControlInput12 {
+            background-color: #b1131303;
+            border-color: #FFFFFF;
+            border-radius: 15px;
+            padding: 1vh;
+        }
+        
         #SPIDERMAN>h1 {
             padding-top: 50vh;
             margin-left: 10vh;
@@ -620,13 +638,37 @@
             margin-top: -7vh;
         }
         
+        #spiders.row {
+            border: none;
+        }
+        
         #spiders>h2 {
             margin-left: 10vh;
         }
         
-        #spiders>p {
-            padding-bottom: 10vh;
-            margin-left: 10vh;
+        #spiders.col-4 {
+            width: 20vh;
+            margin-left: 5vh;
+        }
+        
+        .card-body {
+            background-color: rgb(187, 18, 18);
+            border-radius: 0;
+        }
+        
+        .card-text {
+            color: #FFFFFF;
+        }
+        
+        a.card.btnredf {
+            color: #B11313;
+            background-color: #FFFFFF;
+            margin-top: 10vh;
+            border-radius: 15px;
+            padding: 1vh;
+            margin-bottom: 4vh;
+            border: none;
+            text-align: center;
         }
         
         #spiderblue {
@@ -639,9 +681,11 @@
             padding-bottom: 0;
         }
         
+        #exampleFormControlInput13 {}
+        
         .buttonwhiteblue {
             color: rgb(4, 4, 54);
-            background-color: #FFFFFF;
+            background-color: #ffffff;
             border-radius: 15px;
             padding-bottom: 1vh;
             padding-right: 50vh;
@@ -649,6 +693,16 @@
             border-color: #000000;
             width: 100px;
             margin-left: 4vh;
+        }
+        
+        .buttonwhiteblue::placeholder {
+            color: #000000;
+        }
+        
+        .parent input {
+            display: flex;
+            justify-content: space-between;
+            width: 50px;
         }
         
         .buttonredblue {
@@ -669,9 +723,53 @@
             padding-bottom: 11vh;
         }
         
+        #spiderred>p {
+            padding-bottom: 35vh;
+        }
+        
+        .buttonredred {
+            color: #FFFFFF;
+            background-color: #ffffff00;
+            border-radius: 15px;
+            padding-bottom: 1vh;
+            padding-right: 50vh;
+            margin-bottom: 1vh;
+            border-color: #FFFFFF;
+            margin-left: 4vh;
+        }
+        
+        .buttonredred1 {
+            margin-top: 10vh;
+            color: #FFFFFF;
+            background-color: #ffffff00;
+            border-radius: 15px;
+            padding-bottom: 1vh;
+            padding-right: 50vh;
+            margin-bottom: 1vh;
+            border-color: #FFFFFF;
+            margin-left: 4vh;
+        }
+        
+        .buttonwhitered1 {
+            width: 20px;
+            height: 20px;
+            margin-top: 5vh;
+            margin-left: 4vh;
+        }
+        
+        .buttonwhitered2 {
+            color: #B11313;
+            background-color: #FFFFFF;
+            border-color: #FFFFFF;
+            margin-top: 10vh;
+            border-radius: 15px;
+            padding: 1vh;
+            margin-bottom: 4vh;
+            margin-left: 20vh;
+        }
+        
         #spiderred>img {
-            margin: 0 auto;
-            padding-right: 2vh;
+            position: static;
         }
         
         #Footerhome {
@@ -703,4 +801,9 @@
             text-align: center;
             margin-top: 10vh;
             margin-left: 2vh;
+        }
+        
+        .container>audio {
+            padding: 2vh;
+            margin-left: 63vh;
         }
