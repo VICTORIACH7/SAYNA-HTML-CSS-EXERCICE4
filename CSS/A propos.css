@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Fonts';
+    src: url(../Assets/Fonts/Far-From\ Homecoming\ Updated.otf);
+}
+
+@font-face {
+    font-family: 'font';
+    src: url(../Assets/Fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'fonti';
+    src: url(../Assets/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.containerr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+:root {
+    --primary-ad-red: #B11313;
+    --primary-ad-black: #000000;
+    --primary-ad-white: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/*La partie Design de la barre de navigation*/
+
+nav {
+    padding: 10px 0;
+    background-color: var(--primary-ad-red);
+}
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .brand {
+    padding-left: 100px;
+}
+
+nav .brand img:nth-child(2) {
+    padding-left: 15px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+}
+
+nav .menu ul {
+    display: flex;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu ul li {
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+nav .menu ul li a {
+    text-decoration: none;
+    color: var(--primary-ad-white);
+}
+
+
+/*Design de la partie footer*/
+
+footer {
+    padding: 20px 0;
+    background-color: var(--primary-ad-black);
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    color: var(--primary-ad-white);
+}
+
+.nav-footer {
+    padding: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-footer .list1,
+.nav-footer .list2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-footer li {
+    padding: 20px;
+}
+
+.nav-footer li a {
+    font-size: small;
+    font-family: "fonti";
+    text-decoration: none;
+    color: var(--primary-ad-white);
+}
+
+.nav-footer .list2 .formselect {
+    width: 150px;
+    border: none;
+    padding: 3px 15px;
+    border-radius: 50px;
+    color: var(--primary-ad-white);
+    background-color: var(--primary-ad-red);
+}
+
+.footer .media img {
+    padding: 5px;
+    border-radius: 50%;
+    color: var(--primary-ad-white);
+    background-color: var(--primary-ad-red);
+}
+
+.footer .media {
+    padding: 15px;
+    margin-bottom: 10px;
+}
