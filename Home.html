@@ -17,111 +17,95 @@
 </head>
 
 <body>
-    <header>
-        <!-- Nav-->
-        <nav>
-            <div class="container navbar">
-                <div class="brand">
-                    <a href="./Bonus.html">
-                        <img src="./Assets/Logo/logo1.png" alt="#">
-                        <img src="./Assets/Logo/logo2.png" alt="#">
-                        <img src="./Assets/Logo/logo3.png" alt="#">
-                    </a>
-                </div>
-                <!-- Nav menu -->
-                <div class="menu">
-                    <ul>
-                        <li><a href="./Home.html">Accueil</a></li>
-                        <li><a href="./Adversaire.html">Adversaire</a></li>
-                        <li><a href="./Heros.html">Héros</a></li>
-                        <li><a href="./A propos.html"><strong>A propos</strong></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <!-- Nav-->
+    <header class="row header-web d-none d-sm-none d-md-flex">
+        <div class="col-6 align-self-center">
+            <a href="./Bonus.html">
+                <img src="./Assets/Logo/logo1.png" alt="#">
+                <img src="./Assets/Logo/logo2.png" alt="#">
+                <img src="./Assets/Logo/logo3.png" alt="#">
+            </a>
+        </div>
+        <!-- Nav menu -->
+        <div class="col-6">
+            <nav>
+                <a href="./Home.html">Accueil</a>
+                <a href="./Adversaire.html">Adversaire</a>
+                <a href="./Heros.html">Héros</a>
+                <a href="./A propos.html"><strong>A propos</strong></a>
+            </nav>
+        </div>
+
         <!-- End nav -->
     </header>
+    <header class="row header-mobile d-xs-flex d-sm-flex d-md-none">
+        <div class="col-6 align-self-center">
+            <a href="./Bonus.html">
+                <img src="./Assets/Logo/logo1.png" alt="#">
+                <img src="./Assets/Logo/logo2.png" alt="3%">
+                <img src="./Assets/Logo/logo3.png" alt="10%">
+            </a>
+        </div>
+    </header>
     <main>
-        <section id="SPIDERMAN">
-            <h1>SPIDERMAN</h1>
-            <br>
-            <br>
-            <button class="buttonwhite">Voir les Héros</button>
-            <button class="buttonred">Voir les Adversaires </button>
-
-            <h4>L'araignée sympa du quartier !</h4>
+        <!-- Title -->
+        <section class="row home">
+            <div class="col-lg-6 col-sm-12 col-md-4">
+                <h1>SPIDERMAN</h1>
+                <br>
+                <br>
+                <a href="./Heros.html"><button class="btn btn-light">Voir les Héros</button></a>
+                <a href="./Adversaire.html"><button class="btn-red">Voir les Adversaires </button></a>
+                <h4>L'araignée sympa du quartier !</h4>
         </section>
 
         <section id="spiders">
-
             <h2>LES SPIDERMANS AU CINEMA</h2>
             <P>Spiderman a pu bénéficier de reboot qui ont permis d'adapter ses histoires <br> pour chaque génération !</P>
-            <div class="row">
-                <div class="col-4 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./Assets/Illustration/img3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Columbia Pictures et Spiderman est incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre
-                                Sam Raimi (le réalisateur) et Sony. <br> Cette première trilogie a connu un grand succès auprès des fans et du grand public. L'épisode 3 reste à ce jour un des films les plus chers de l' histoire du cinéma.</p>
-                            <a href="#" class="btnredf ">Voir ses adversaires</a>
-                        </div>
-                    </div>
+            <div class="row col-9">
+                <div class="col-lg-4 col-sm-12 col-md-12">
+                    <img src="./Assets/Illustration/img3.png" class="card-img-top" alt="...">
+                    <p class="card-text">Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Columbia Pictures et Spiderman est incarné par Tobey Maguire. Un quatrième était prévu mais sera finalement annulé suite à des désaccords entre Sam Raimi
+                        (le réalisateur) et Sony. <br> Cette première trilogie a connu un grand succès auprès des fans et du grand public. L'épisode 3 reste à ce jour un des films les plus chers de l' histoire du cinéma.</p>
+                    <a href="./Adversaire.html" class="btnredf ">Voir ses adversaires</a>
+
+                </div>
+                <div class="col-lg-4 col-sm-12 col-md-12">
+                    <img src="./Assets/Illustration/img2.png" class="card-img-top" alt="...">
+                    <p class="card-text">The Amazing Spiderman est sorti en 2012, c'est Andrew Garfield qui incarne le héro et Marc Webb à la réalisation. Un deuxième volet, The Amazing Spider-Man: Le destin d'un héros, est sorti en 2014 et a reçu des critiques très mitigées.
+                        Un troisième et quatrième film étaient prévus pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers cinématographique MArvel et abandonne ainsi The Amazing Spider-Man.
+                    </p>
+                    <a href="./Adversaire.html" class="btnredf">Voir ses adversaires</a>
                 </div>
 
-
-                <div class="col-4 ">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./Assets/Illustration/img2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">The Amazing Spiderman est sorti en 2012, c'est Andrew Garfield qui incarne le héro et Marc Webb à la réalisation. Un deuxième volet, The Amazing Spider-Man: Le destin d'un héros, est sorti en 2014 et a reçu des critiques très
-                                mitigées. Un troisième et quatrième film étaient prévus pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans l'Univers cinématographique MArvel et abandonne ainsi The Amazing Spider-Man.
-                            </p>
-                            <a href="#" class="btnredf">Voir ses adversaires</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4 ">
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="./Assets/Illustration/img4.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Spiderman, désormais incarné par Tom Holland, apparaît pour la première fois dans l'univers Marvel avec Captain America: Civil War, sorti en 2016. Par la suite, Une trilogie de films lui est consacrée: <br>. Spiderman: Homecoming
-                                (2017)
-                                <br> . Spiderman: Far From Home (2019) <br> .Spiderman: No Way Home (2021) <br>Le héro est également présent dans Avengers Infinity War et Avengers End Game, combattant au côté des Avengers. </p>
-                            <a href="#" class="btnredf">Voir ses adversaires</a>
-                        </div>
-                    </div>
+                <div class="col-lg-4 col-sm-12 col-md-12">
+                    <img src="./Assets/Illustration/img4.png" class="card-img-top" alt="...">
+                    <p class="card-text">Spiderman, désormais incarné par Tom Holland, apparaît pour la première fois dans l'univers Marvel avec Captain America: Civil War, sorti en 2016. Par la suite, Une trilogie de films lui est consacrée: <br>. Spiderman: Homecoming (2017)
+                        <br> . Spiderman: Far From Home (2019) <br> .Spiderman: No Way Home (2021) <br>Le héro est également présent dans Avengers Infinity War et Avengers End Game, combattant au côté des Avengers. </p>
+                    <a href="./Adversaire.html" class="btnredf">Voir ses adversaires</a>
                 </div>
             </div>
         </section>
         <section id="spiderblue">
-            <div>
-                <div class="parent">
-                    <div>
-                        <img src="./Assets/Illustration/img5L.png" alt="">
-                    </div>
-                    <div class="right">
-                        <h2>DEVIENS SPIDERMAN !</h2>
-                        <p>Rempli le formulaire ci dessous afin de recevoir ton propre costume.</p>
-                        <input type="text" class="buttonwhiteblue" id="exampleFormControlInput13" placeholder="Nom">
-                        <input type="text" class="buttonwhiteblue" id="exampleFormControlInput13" placeholder="Prénom">
-                        <input type="text" class="buttonwhiteblue" id="exampleFormControlInput13" placeholder="Taille (cm)">
-                        <input type="text" class="buttonwhiteblue" id="exampleFormControlInput13" placeholder="Poids(kg)">
-                        <input type="email" class="buttonwhiteblue" id="exampleFormControlInput13" placeholder="Adresse email">
-
-                        <br>
-                        <button class="buttonredblue">Envoyer</button>
-                    </div>
+            <div class="right">
+                <h2>DEVIENS SPIDERMAN !</h2>
+                <p>Rempli le formulaire ci dessous afin de recevoir ton propre costume.</p>
+                <div class="input-text">
+                    <input type="text" id="exampleFormControlInput13" placeholder="Nom">
+                    <input type="text" id="exampleFormControlInput13" placeholder="Prénom">
+                    <input type="text" id="exampleFormControlInput13" placeholder="Taille (cm)">
+                    <input type="text" id="exampleFormControlInput13" placeholder="Poids(kg)">
+                    <input type="email" id="exampleFormControlInput13" placeholder="Adresse email">
                 </div>
+                <br>
+                <button class="btn-blue">Envoyer</button>
             </div>
-
-
         </section>
+
         <section id="spiderred">
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
+                    <div class="col-7">
                         <h2 style="font-size: x-large;">INSCRIT TOI A LA NEWSLETTER !</h2>
                         <p>L'univers de l'araignée justicière te passionne ? Reste au courant des dernières actualités grâce à notre newsletter!</p>
                         <div class="buttonredred1">
@@ -129,17 +113,17 @@
                             <input type="email" class="form-control" id="exampleFormControlInput12" placeholder="Adresse email">
                         </div>
 
-                        <br>
-                        <button class="buttonwhitered1"></button>
-                        <p>Je reconnais accepter <u>la politique de confidentialité </u> de Sayna X Marvel.
-                        </p>
+                        <div class="cocher">
+                            <button class="buttonwhitered1"></button>
+                            <p>Je reconnais accepter <u>la politique de confidentialité </u> de Sayna X Marvel.
+                            </p>
+                        </div>
                         <br>
                         <button class="buttonwhitered2">s'inscrire à la newsletter</button>
                     </div>
-                    <div class="col-4">
-                        <img src="./Assets/Illustration/img6.png" alt="#">
+                    <div class="col-5">
+                        <img class="CACHER" src="./Assets/Illustration/img6.png" alt="#">
                     </div>
-
                 </div>
 
             </div>
@@ -182,6 +166,7 @@
                 <img src="./Assets/Logo/logoy.png" alt="#">
                 <img src="./Assets/Logo/logot.png" alt="#">
             </div>
+            <audio controls autoplay src="./Assets/audio1.mp3"></audio>
             <div class="copyright">
                 <p>&copy; SaynaXMarvel,Inc.2022.We love our users</p>
             </div>

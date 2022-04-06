@@ -99,6 +99,12 @@ nav .menu ul li a {
     color: var(--primary-ad-white);
 }
 
+#Bonus .titre:hover {
+    color: var(--primary-ad-red);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 #Bonus .description {
     font-size: 1.4em;
     font-weight: bold;

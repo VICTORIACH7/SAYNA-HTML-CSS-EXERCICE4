@@ -31,6 +31,7 @@ body {
 :root {
     --primary-ad-blue: #114C92;
     --primary-ad-black: #000000;
+    --primary-ad-red: #B11313;
     --primary-ad-white: #FFFFFF;
 }
 
@@ -109,6 +110,265 @@ nav .menu ul li a {
 #Héros .box {
     position: relative;
     top: 37%;
+}
+
+
+/*Design de la partie valeur*/
+
+#Valeurs {
+    background-color: var(--primary-ad-blue);
+}
+
+#Valeurs .titre {
+    font-family: "Fonts";
+    padding-top: 5vh;
+    color: var(--primary-ad-white);
+}
+
+#Valeurs .description {
+    font-size: larger;
+    padding-top: 2vh;
+    font-weight: bold;
+    font-family: "fonti";
+    color: var(--primary-ad-white);
+}
+
+#Valeurs .contenu {
+    font-size: small;
+    padding-top: 2vh;
+    font-family: "fonti";
+    text-align: justify;
+    color: var(--primary-ad-white);
+}
+
+
+/* Design fondations solides*/
+
+#Fondations {
+    height: 80vh;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../Assets/Illustration/img20.png);
+}
+
+#Fondations .titre {
+    padding-left: 20vh;
+    padding-top: 20vh;
+    font-family: "Fonts";
+    color: var(--primary-ad-white);
+}
+
+#Fondations .description {
+    padding-top: 2vh;
+    padding-left: 20vh;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "fonti";
+    color: var(--primary-ad-white);
+}
+
+
+/* Design des Informations*/
+
+#Informations {
+    background-color: var(--primary-ad-blue);
+}
+
+#Informations .row {
+    margin: 0 auto;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#Informations .contenu {
+    font-size: smaller;
+    padding-top: 2vh;
+    font-family: "fonti";
+    text-align: justify;
+    color: var(--primary-ad-white);
+}
+
+
+/*Design jamais seul*/
+
+#Jamais {
+    background-color: var(--primary-ad-blue);
+}
+
+#Jamais .titre {
+    padding-top: 5vh;
+    padding-left: 5vh;
+    font-family: "Fonts";
+    color: var(--primary-ad-white);
+}
+
+#Jamais .description {
+    font-size: larger;
+    padding-top: 2vh;
+    font-weight: bold;
+    padding-left: 5vh;
+    font-family: "fonti";
+    color: var(--primary-ad-white);
+}
+
+#Jamais .row {
+    margin: 0 auto;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#Jamais .friend {
+    padding-top: 4vh;
+    padding-left: 5vh;
+}
+
+#Jamais figcaption {
+    margin-top: -13vh;
+    padding-left: 40vh;
+}
+
+#Jamais .contenu {
+    font-size: smaller;
+    padding-top: 4vh;
+    font-family: "fonti";
+    text-align: justify;
+    color: var(--primary-ad-white);
+}
+
+
+/*Designe de la partie Filles*/
+
+#Filles {
+    background-color: var(--primary-ad-blue);
+}
+
+#Filles .row {
+    display: flex;
+}
+
+#Filles .titre {
+    padding-top: 5vh;
+    padding-left: 5vh;
+    font-family: "Fonts";
+    color: var(--primary-ad-white);
+}
+
+#Filles .contenu {
+    font-size: smaller;
+    padding-top: 4vh;
+    font-family: "fonti";
+    text-align: justify;
+    color: var(--primary-ad-white);
+}
+
+#Filles .first {
+    padding-top: 18vh;
+    padding-left: 8vh;
+}
+
+#Filles figcaption .second {
+    margin-top: -33vh;
+    padding-left: 50vh;
+}
+
+#Filles figcaption .third {
+    padding-left: 28vh;
+    margin-bottom: 20vh;
+}
+
+
+/* Design les avengers*/
+
+#Avengers {
+    background-color: var(--primary-ad-red);
+}
+
+#Avengers .red {
+    display: flex;
+}
+
+#Avengers .titre {
+    padding-top: 5vh;
+    padding-left: 5vh;
+    font-family: "Fonts";
+    color: var(--primary-ad-white);
+}
+
+#Avengers .contenu {
+    padding-top: 3vh;
+    padding-right: 2vh;
+    font-size: smaller;
+    font-family: "fonti";
+    text-align: justify;
+    color: var(--primary-ad-white);
+}
+
+#Avengers .col-5 {
+    margin-left: 5vh;
+    display: flexbox;
+}
+
+#Avengers .photo {
+    width: 80%;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#Avengers .col-7 {
+    margin-right: -5vh;
+    padding-bottom: 0;
+    justify-content: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../Assets/Illustration/img32.png);
+}
+
+
+/* Design Univers*/
+
+#Univers {
+    margin-right: -5vh;
+    justify-content: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../Assets/Illustration/img33.png);
+}
+
+#Univers .containerbox {
+    background-color: #114b92a0;
+    justify-content: right;
+    width: 40%;
+    height: 100%;
+    margin-left: 110vh;
+    padding-bottom: 15vh;
+}
+
+#Univers .titre {
+    padding-top: 10vh;
+    padding-left: 5vh;
+    font-family: "Fonts";
+    color: var(--primary-ad-white);
+}
+
+#Univers .description {
+    font-size: larger;
+    padding-top: 2vh;
+    font-weight: bold;
+    padding-left: 42vh;
+    font-family: "fonti";
+    color: var(--primary-ad-white);
+}
+
+#Univers .contenu {
+    padding-top: 3vh;
+    padding-right: 3vh;
+    padding-left: 3vh;
+    font-size: medium;
+    font-family: "fonti";
+    text-align: justify;
+    padding-bottom: 10vh;
+    color: var(--primary-ad-white);
 }
 
 
